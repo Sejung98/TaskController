@@ -1,6 +1,7 @@
 """
-Task Controller - 투명 배경 심플 컨트롤러 아이콘 생성기
-Pillow를 이용해 4x 슈퍼샘플링으로 매끄러운 투명 배경 게임 컨트롤러 아이콘을 생성합니다.
+Task Controller - Transparent Controller Icon Generator
+Generated with Google Gemini for Task Controller.
+Uses Pillow with 4x supersampling for ultra-crisp antialiasing.
 """
 
 import os
