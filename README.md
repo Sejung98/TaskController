@@ -88,9 +88,16 @@ If Python 3.8+ is installed on your computer:
 
 General Windows users without Python installed cannot run `.bat` files directly. You can build a single executable `.exe`:
 
-1. Double-click `build_exe.bat`.
+1. Double-click `launchers\build_exe.bat`.
 2. PyInstaller will compile everything into `dist\TaskController.exe`.
 3. Distribute `TaskController.exe` (e.g. upload to **GitHub Releases**). Users can simply download and run it with no dependencies!
+
+---
+
+## 👥 Contributors & Credits
+
+- **[Sejung](https://github.com/Sejung98)** — Creator & Project Lead
+- **Google Gemini** — AI Pair Programmer & Code Contributor
 
 ---
 
@@ -104,5 +111,6 @@ General Windows users without Python installed cannot run `.bat` files directly.
 
 ## 📜 License & Copyright
 
-Copyright &copy; 2026 **Sejung**. All rights reserved.
+Copyright &copy; 2026 **Sejung**. All rights reserved.  
 Licensed under the [MIT License](LICENSE).
+
