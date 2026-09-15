@@ -97,7 +97,7 @@ General Windows users without Python installed cannot run `.bat` files directly.
 ## 👥 Contributors & Credits
 
 - **[Sejung](https://github.com/Sejung98)** — Creator & Project Lead
-- **Google Gemini** — AI Pair Programmer & Code Contributor
+- **[Google Gemini](https://github.com/google-gemini)** — AI Pair Programmer & Code Contributor
 
 ---
 
