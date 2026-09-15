@@ -18,9 +18,7 @@
   - **Delete Task**: Permanently unregister tasks from Windows Task Scheduler (with optional script file cleanup).
 - **📂 One-Click Code Access**: Instantly open script folder in File Explorer or edit directly in Notepad.
 - **🏃 Process Inspector**: Real-time monitoring and termination of background `cmd.exe` and batch processes.
-- **🔒 Privacy & Security**:
-  - Zero hardcoded personal paths or credentials.
-  - Localhost-only binding (`127.0.0.1`) prevents unauthorized external access.
+- **🔒 Safe & Local-Only**: Zero telemetry, strictly binds to `127.0.0.1` for complete privacy.
 
 ---
 
@@ -91,21 +89,6 @@ General Windows users without Python installed cannot run `.bat` files directly.
 1. Double-click `launchers\build_exe.bat`.
 2. PyInstaller will compile everything into `dist\TaskController.exe`.
 3. Distribute `TaskController.exe` (e.g. upload to **GitHub Releases**). Users can simply download and run it with no dependencies!
-
----
-
-## 👥 Contributors & Credits
-
-- **[Sejung](https://github.com/Sejung98)** — Creator & Project Lead
-- **[Google Gemini](https://github.com/google-gemini)** — AI Pair Programmer & Code Contributor
-
----
-
-## 🛡️ Security & Privacy Notice
-
-- **No Personal Information**: All script target paths and user directories are dynamically resolved via system environment variables (`%USERNAME%`, `%USERPROFILE%`).
-- **Network Isolation**: The API server strictly binds to `127.0.0.1` (loopback only) and is never accessible across external networks.
-- **Safe Deletion**: Deleting a scheduled task only unregisters it from Windows Task Scheduler; deleting the underlying file requires explicit user confirmation.
 
 ---
 
